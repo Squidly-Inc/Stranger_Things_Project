@@ -1,0 +1,46 @@
+#post {
+    border: 1px black solid;
+    border-radius: 10px;
+    box-shadow: 3px 4px #505050;
+    font-family: Arial;
+    margin: 0px 20px 20px;
+    padding: 10px;
+}
+
+#post > div > h2{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0px;
+}
+
+#post > div > .sellerDetails{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0px;
+}
+
+#postTitle {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#postDesc{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+#postPrice {
+    font-size: 15px;
+}
+
+#postSeller {
+    margin: 15px 0px 5px 0px;
+    font-size: 14px
+}
+
+#postLocation {
+    font-size: 14px
+}
