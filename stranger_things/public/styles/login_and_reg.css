@@ -1,0 +1,43 @@
+.loginAndReg{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+}
+
+.username {
+    margin-bottom: 40px;
+}
+
+.password {
+    margin-bottom: 40px;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBtn {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(200, 100%, 50%);
+}
+.loginBtn a {
+    text-decoration: none;
+    color: white;
+}
+
+.loginBtn:hover {
+    background-color: hsl(200, 100%, 35%);
+}

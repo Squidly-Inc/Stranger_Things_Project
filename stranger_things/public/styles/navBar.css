@@ -1,0 +1,42 @@
+nav a {
+    color: #FFF;
+    text-decoration: none;
+  }
+nav a:hover {
+    color: rgb(197, 197, 197);
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+    background-color: #333;
+    color: #f2f2f2;
+    padding: 15px;
+
+}
+.navLink {
+    display: inline-block;
+    margin-left: 20px;
+}
+.loginLinks {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.login {
+    display: inline-block;
+    margin-left: 50px;
+}
+.createAccount {
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+.createPostBTN a {
+    color: red;
+}
+.createPostBTN a:hover {
+    color: rgb(144, 0, 0);
+}

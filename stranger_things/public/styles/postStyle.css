@@ -6,6 +6,9 @@
     margin: 0px 20px 20px;
     padding: 10px;
 }
+#post:first-of-type {
+    margin-top: 30px;
+}
 
 #post > div > h2{
     display: inline-block;
@@ -43,4 +46,26 @@
 
 #postLocation {
     font-size: 14px
+}
+
+#singlePostButton {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(200, 100%, 50%);
+}
+#singlePostButton a {
+    text-decoration: none;
+    color: white;
+}
+
+#singlePostButton:hover {
+    background-color: hsl(200, 100%, 35%);
 }

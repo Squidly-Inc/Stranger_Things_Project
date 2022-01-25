@@ -1,0 +1,23 @@
+.banner {
+    font-size: 64px;
+    text-align: center;
+}
+
+.h2_message {
+    text-align: center;
+}
+
+.h2_message a {
+    color: rgb(4, 0, 255);
+    text-decoration: none;
+  }
+.h2_message a:hover {
+    color: rgb(4, 0, 255);
+    text-decoration: underline;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}

@@ -1,0 +1,43 @@
+#createOrEdit {
+    border: 8px outset rgba(0,164,13,0.44);
+    margin: 5vh 10rem 0px;
+    padding: 20px;
+}
+
+#createOrEdit h1 {
+    margin: 0px 0px 30px;
+    text-align: center;
+    font-size: 64px;
+}
+
+.createOrEditForm{
+    display:flex;
+    flex-direction: column;
+}
+
+.inputItem{
+    margin-bottom: 40px;
+}
+
+#createPostButton {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: inherit;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(200, 100%, 50%);
+}
+
+#createPostButton a {
+    text-decoration: none;
+    color: white;
+}
+
+#createPostButton:hover {
+    background-color: hsl(200, 100%, 35%);
+}
